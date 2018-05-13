@@ -1,0 +1,337 @@
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+
+h1{
+	color: blue;
+	
+}
+#banner_firstpage{
+	position: relative;
+	height: 0px;
+	z-index: 5;
+}
+.n2-ss-slider-1 n2-ss-swipe-element n2-ow n2-grab{
+	height: 1500px !important;
+}
+a:visited{
+	border: none;
+}
+a{
+	color: black;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+#firstpahref:hover{
+	color: white !important;
+}
+a:active{
+	color: black;
+}
+#firstplogoimg{
+	margin-top: 40px;
+}
+#firstp_welc{
+	position: absolute;
+	right: 0px;
+	top: -75px;
+	border: 2px solid rgba(0,0,0,.78);
+	//background-color: transparent;
+}
+#firstp_welc_inner:hover{
+	background-color: rgba(0, 0, 0, 0.78);
+	color: white !important;
+}
+#firstpahref{
+	float: right;
+	position: relative;
+}
+#firstp_welc_inner{
+	padding: 10px;
+	color: rgba(0,0,0,.78);
+	font-size: 12px;
+}
+.productboxx{
+	float: left;
+}
+.sidebar-primary .main{
+	width: 100% !important;
+	max-width: 100% !important;
+	flex: 0 0 100%;
+}
+h2.woocommerce-loop-product__title{
+	font-size: 10px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+span.price{
+	display: none;
+}
+a.add_to_cart_button{
+	display: none !important;
+}
+.bg-light{
+	background-color: white !important;
+}
+#navbar{
+	float: right;	
+}
+.navbar{
+	padding-top: 0px !important;
+}
+.nav-link{
+	padding-top: 0px !important;
+}
+.cart-contents{
+	float: right;
+}
+ul.products{
+	margin-left: -15px !important;
+	margin-right: -15px !important;
+}
+.woocommerce-result-count, .woocommerce-ordering{
+	display: none !important;	
+}
+.image-block-wrapper{
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px !important;
+}
+.gallerigridimage{
+	width: 100%;
+}
+.lb-nav, .lb-number{
+	display: none !important;
+}
+.lb-image{
+	border: none !important;
+	border-radius: 0px;
+}
+.lb-closeContainer{
+	position: absolute !important;
+	top: 0px;
+	right: 50px;
+}
+.sbi_header_link, .page-header{
+	display: none !important;
+}
+.sbi_images{
+	padding: 0px !important;
+}
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images{
+	float: right !important;
+	width: 50% !important;
+	margin-right: 2%;
+}
+.hideonphone {
+  display: none;
+}
+.hideonbig {
+  display: block;
+}
+@include media-breakpoint-up(sm) {
+  .hideonbig {
+    display: none;
+  }
+}
+p.price, .product_meta{
+	display: none;
+}
+.qty{
+	display: none !important;
+}
+.add_to_cart_inline{
+	border: none !important;
+	padding: 0px !important;
+	margin-top: 0px;
+}
+.woocommerce-Price-currencySymbol{
+	margin-left: 3px;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+	background-color: rgba(0,0,0,.25);
+	border-radius: 1px;
+}
+#footerr{
+	text-align: center;
+	margin-top: 25px;
+	color: #c2c2c2;
+	font-size: 12px;
+	line-height: 21px;
+	margin-bottom: 32px;
+}
+a#footeremail{
+	color: inherit;
+}
+a#footeremail:hover{
+	text-decoration: underline;
+}
+.page-id-18 #footerr {
+   display:none
+}
+.banner{
+	margin-top: 53px;
+	margin-bottom: 53px;
+}
+body{
+	font-family: adobe-garamond-pro;
+}
+.navbar-nav{
+	text-transform: uppercase;
+	font-size: 10px;
+	margin-top: 47px !important;
+}
+.cart-contents{
+	text-transform: uppercase;
+	font-size: 10px;
+	margin-top: 38px !important;
+}
+.image-caption{
+	font-size: 12px;
+	color: rgba(0,0,0,.5);
+	margin-top: 17px;
+}
+.productboxx:hover{
+	opacity: 0.6;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link{
+	color: rgba(0,0,0,.78) !important;
+}
+.nav-link:hover, .fa-shopping-cart:hover{
+	opacity: 0.5 !important;
+}
+.navbar-toggler{
+	border: none;
+}
+#sb_instagram .sbi_follow_btn a{
+	background-color: rgba(0,0,0,.78);
+}
+#sbi_images{
+	width: calc(100% + 60px) !important;
+	margin-left: -30px;
+	padding-top: 0px !important;
+}
+h1.product_title{
+	color: #333;
+	font-size: 22px;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+.woocommerce-product-details__short-description{
+	color:rgba(0,0,0,.5);
+}
+.single_add_to_cart_button:hover{
+	background-color: rgba(0,0,0,.4) !important;
+	opacity: 0.5;
+}
+.single_add_to_cart_button{
+	text-transform: uppercase;
+	font-size: 12px !important;	
+	margin-top: 12px !important;
+}
+.historik_slider{
+	margin-bottom: 20px;
+}
+#kontakt_content{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 11px;
+	letter-spacing: 0.2em;
+}
+.kontakt_namn{
+	line-height: 22px;
+}
+.kontakt_namn>a{
+	color: rgba(0,0,0,.5);
+}
+@include media-breakpoint-up(sm) {
+  .hideonphone {
+    display: block;
+  }
+}
+@include media-breakpoint-down(md) {
+    #navbar {
+        float: left;
+        padding: 0px;
+        margin-top: -5px;
+    }
+    .navbar-toggler{
+	    padding: 0px;
+    }
+  #kontakt_content{
+	  margin-top: 30px !important;
+	  margin-bottom: 40px !important;
+  }   
+}
+// iphone4
+@media (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .page-id-85 footer{
+	  position: absolute;
+	  bottom: 10px;
+  } 	
+}
+
+//iPhone X in portrait
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+  .page-id-85 footer{
+	  position: absolute;
+	  bottom: 10px;
+  } 	
+}
+
+//iPhone 6, 7, & 8 in portrait
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+  .page-id-85 footer{
+	  position: absolute;
+	  bottom: 10px;
+  } 		
+}
+
+//iPhone 6, 7, & 8 Plus in portrait
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+  .page-id-85 footer{
+	  position: absolute;
+	  bottom: 10px;
+  } 		
+}
+
+//iPhone 5 & 5S in portrait
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+  .page-id-85 footer{
+	  position: absolute;
+	  bottom: 10px;
+  } 		
+}	
